@@ -1,6 +1,7 @@
 # metalsmith-offline
+
 A metalsmith plugin for making your metalsmith application work offline.
 
-## Warning!
+Uses application cache manifest.
 
-This is currently a proof-of-concept. Please don't use it in production (but feel free to send PRs).
+PRs welcome to get this to use a hybrid of service workers falling back to application cache.
