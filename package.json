@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-offline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A metalsmith plugin for making your metalsmith application work offline.",
   "main": "lib/index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "cheerio": "^0.20.0",
-    "sw-precache": "https://github.com/aeharding/sw-precache/tarball/250c52e773bc6edcd391bf86b1a6febe23a733f5"
+    "sw-precache": "https://github.com/aeharding/sw-precache/tarball/e4c6c473852f223c7756588e7ec2afb46598d1e2"
   },
   "devDependencies": {},
   "scripts": {
