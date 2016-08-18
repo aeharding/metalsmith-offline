@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-offline",
+  "version": "1.0.0",
+  "description": "A metalsmith plugin for making your metalsmith application work offline.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sw-precache": "https://github.com/aeharding/sw-precache/tarball/250c52e773bc6edcd391bf86b1a6febe23a733f5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeharding/metalsmith-offline.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeharding/metalsmith-offline/issues"
+  },
+  "homepage": "https://github.com/aeharding/metalsmith-offline#readme"
+}
