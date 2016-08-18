@@ -18,7 +18,9 @@ npm install --save metalsmith-offline
 ```
 {
   "plugins": {
-    "metalsmith-offline": true
+    "metalsmith-offline": {
+      "trailingSlash": false
+    }
   }
 }
 ```
@@ -28,5 +30,19 @@ npm install --save metalsmith-offline
 ```javascript
 var offline = require('metalsmith-offline');
  
-metalsmith.use(offline(true));
+metalsmith.use(offline({
+  trailingSlash: false
+}));
 ```
+
+## Options
+
+### `trailingSlash`
+
+False by default.
+
+If true, offline-enabled URLs will have trailing slashes
+
+In example:
+
+`/blog/` would be valid, but `/blog` would not be.
