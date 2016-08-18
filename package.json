@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-offline",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A metalsmith plugin for making your metalsmith application work offline.",
   "main": "lib/index.js",
   "directories": {
